@@ -24,8 +24,8 @@ bold : 700
 
 --- 02 Colors
 #F53838
-
-
+#4F5665
+#F53855
 
 */
 
@@ -49,7 +49,7 @@ body {
 .section-hero {
     max-width: 130rem;
     margin: auto;
-    padding: 15rem 9.8rem 8.3rem 9.8rem;
+    padding: 10rem 9.8rem 8.3rem 9.8rem;
 }
 
 .hero {
@@ -96,4 +96,83 @@ body {
 
 .hero-img-box img {
     width: 100%;
+}
+
+
+/* Header Section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 130rem;
+    margin: auto;
+    padding: 5.862rem 9.8rem 0 9.8rem;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-item:link,
+.menu-item:visited {
+    display: inline-block;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #4f5665;
+    border-bottom: 2px solid transparent;
+    transition: all 0.025s;
+}
+
+.menu-item:hover {
+    border-bottom: 2px solid #4f5665;
+    display: block;
+}
+
+.navbar-box-button {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.btn-sign-in,
+.btn-sign-up {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-sign-in:link,
+.btn-sign-in:visited {
+    color: #0b132a;
+}
+
+.btn-sign-in:link,
+.btn-sign-in:visited {
+    color: #0b132a;
+    border-bottom: 2px solid transparent;
+    transition: all 0.4s;
+}
+
+.btn-sign-in:hover {
+    border-bottom: 2px solid #0b132a;
+}
+
+.btn-sign-up:link,
+.btn-sign-up:visited {
+    padding: 1.3rem 4.5rem;
+    border: 1px solid #f53855;
+    color: #f53855;
+    border-radius: 100px;
+    transition: all 0.4s;
+}
+
+.btn-sign-up:hover {
+    background-color: #f53855;
+    color: #fff;
 }

@@ -236,3 +236,33 @@ body {
     font-size: 2rem;
     color: #4f5665;
 }
+
+
+/* ================ */
+
+
+/* section provide */
+
+
+/* ================ */
+
+.section-provide {
+    padding: 3.6rem 9.8rem 8.3rem 9.8rem;
+}
+
+.provide-box {
+    padding: 0 2rem;
+}
+
+.provide-container {
+    align-items: center;
+    column-gap: 16.948rem;
+}
+
+.provide-box-img img {
+    width: 100%;
+}
+
+.provide-icon {
+    color: #2fab73;
+}

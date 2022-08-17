@@ -250,8 +250,8 @@ body {
     padding: 3.6rem 9.8rem 8.3rem 9.8rem;
 }
 
-.provide-box {
-    padding: 0 2rem;
+.provide-box-text {
+    padding: 0rem 2rem;
 }
 
 .provide-container {
@@ -264,5 +264,42 @@ body {
 }
 
 .provide-icon {
-    color: #2fab73;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.4rem;
+    border-radius: 100px;
+    background-color: #2fab73;
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 5rem;
+    color: #0b132a;
+    margin-bottom: 2rem;
+    word-spacing: 0.5rem;
+}
+
+.provide-text {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #4f5665;
+    margin-bottom: 2rem;
+    word-spacing: 0.5rem;
+}
+
+.provide-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.provide-list-item {
+    display: flex;
+    align-items: center;
+    gap: 1.08rem;
 }

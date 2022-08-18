@@ -303,3 +303,107 @@ body {
     align-items: center;
     gap: 1.08rem;
 }
+
+
+/* ============== */
+
+
+/* section choose plan */
+
+
+/* =============== */
+
+.section-plan {
+    /* padding: 8rem 17.6rem 8.3rem 17.4rem; */
+    padding: 100px;
+}
+
+.header-plan {
+    text-align: center;
+}
+
+.header-plan .heading-secondary {
+    margin-bottom: 2rem;
+}
+
+.plan-heading-text {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #4f5665;
+    word-spacing: 0.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    width: 55.5rem;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+.plan-card {
+    padding: 6.2rem 4.4rem;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 33rem;
+    height: 76rem;
+}
+
+.plan-card img {
+    width: 145px;
+}
+
+.plan-card-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+    word-spacing: 0.5rem;
+}
+
+.list-plan {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list-plan-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.4rem;
+    word-spacing: 0.5rem;
+    line-height: 3rem;
+}
+
+.icon-plan-item {
+    color: #2fab73;
+    font-size: 2.4rem;
+}
+
+.button-box-plan {
+    margin-top: auto;
+}
+
+.button-box-plan p {
+    margin-bottom: 2.4rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    word-spacing: 0.5rem;
+    color: #0b132a;
+    text-align: center;
+}
+
+.btn-subscribe:link,
+.btn-subscribe:visited {
+    text-decoration: none;
+    color: #f53838;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.3rem 6.3rem;
+    border: 2px solid #f53838;
+    border-radius: 50px;
+}

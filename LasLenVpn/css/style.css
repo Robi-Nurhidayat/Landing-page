@@ -273,7 +273,7 @@ body {
 }
 
 .heading-secondary {
-    font-size: 3.5rem;
+    font-size: 4.2rem;
     font-weight: 500;
     line-height: 5rem;
     color: #0b132a;
@@ -314,8 +314,7 @@ body {
 /* =============== */
 
 .section-plan {
-    /* padding: 8rem 17.6rem 8.3rem 17.4rem; */
-    padding: 100px;
+    padding: 8rem 17.6rem 8.3rem 17.4rem;
 }
 
 .header-plan {
@@ -336,6 +335,13 @@ body {
     width: 55.5rem;
     margin: auto;
     margin-bottom: 6rem;
+}
+
+.plan-box {
+    gap: 5rem;
+    align-items: center;
+    justify-content: end;
+    margin: auto;
 }
 
 .plan-card {
@@ -395,6 +401,11 @@ body {
     word-spacing: 0.5rem;
     color: #0b132a;
     text-align: center;
+}
+
+.button-box-plan span {
+    color: #4f5665;
+    font-weight: 400;
 }
 
 .btn-subscribe:link,

@@ -464,3 +464,37 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+/* ============= */
+/* Section Review */
+/* =============== */
+
+.section-reviewers {
+  padding: 0 0 0 15rem;
+}
+
+.heading-review {
+  margin: auto;
+  width: 44.781rem;
+  height: 10rem;
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 5rem;
+  word-spacing: 0.5rem;
+  color: #0b132a;
+  margin-bottom: 2rem;
+}
+
+.header-review-text {
+  font-size: 1.6rem;
+  width: 55.5rem;
+  height: 6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  word-spacing: 0.3rem;
+  color: #4f5665;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 6rem;
+}

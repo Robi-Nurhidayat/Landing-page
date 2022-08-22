@@ -498,3 +498,125 @@ body {
   text-align: center;
   margin-bottom: 6rem;
 }
+
+.card-review {
+  gap: 5rem;
+  margin-bottom: 8.2rem;
+}
+
+.card-item {
+  /* margin: auto; */
+  padding: 3rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.figure-header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.figure-header img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.bio-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: #0b132a;
+  word-spacing: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bio-live {
+  font-size: 1.4rem;
+  font-weight: 400;
+  word-spacing: 0.5rem;
+  line-height: 3rem;
+  color: #4f5665;
+}
+
+.persentase-review {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+
+.persentase-review p:first-child {
+  line-height: 3rem;
+  word-spacing: 0.5rem;
+  color: #0b132a;
+}
+.icon-review {
+  color: #fea250;
+  fill: #fea250;
+}
+
+.card-body-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  word-spacing: 0.5rem;
+  text-align: left;
+  line-height: 3rem;
+  color: #0b132a;
+}
+
+.corousel {
+  display: flex;
+  align-items: center;
+}
+
+.sliders {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.slider-icon {
+  width: 15px;
+  height: 15px;
+  background-color: #dde0e4;
+  border-radius: 50px;
+}
+
+.slider-active {
+  width: 45px;
+  height: 15px;
+  background-color: #f53838;
+}
+
+.sliders-button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn-slider {
+  border: none;
+  background: none;
+  padding: 2rem;
+  border-radius: 100%;
+}
+
+.btn-slider.right {
+  background-color: #f53838;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.btn-slider.left {
+  background-color: #fff;
+  border: 1px solid #f53838;
+  color: #f53838;
+}
+
+.icon-btn-slider {
+  width: 3rem;
+  height: 3rem;
+}

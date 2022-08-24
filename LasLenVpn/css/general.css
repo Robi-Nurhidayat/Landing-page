@@ -1,20 +1,24 @@
 .container {
-    max-width: 130rem;
-    margin: auto;
+  max-width: 130rem;
+  margin: auto;
 }
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 .grid--2-col {
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-col {
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-col {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .shadow-container {
-    box-shadow: 2px 2px 2px red;
+  box-shadow: 2px 2px 2px red;
 }

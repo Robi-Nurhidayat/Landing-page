@@ -665,3 +665,11 @@ body {
   line-height: 2.5rem;
   word-spacing: 0.5rem;
 }
+
+.footer-box {
+  padding: 7rem 5.85rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 8rem;
+  justify-content: center;
+}

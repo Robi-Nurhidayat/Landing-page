@@ -41,12 +41,14 @@ html {
 
 body {
   font-family: "Rubik", sans-serif;
+  background-color: #fff;
 }
 
 /* Section Hero */
 
 .section-hero {
   padding: 10rem 9.8rem 8.3rem 9.8rem;
+  background-color: #fff;
 }
 
 .hero {
@@ -242,6 +244,7 @@ body {
 
 .section-provide {
   padding: 3.6rem 9.8rem 8.3rem 9.8rem;
+  /* background-color: #f6f6f6; */
 }
 
 .provide-box-text {
@@ -306,6 +309,7 @@ body {
 
 .section-plan {
   padding: 10rem 9.8rem 8.3rem 9.8rem;
+  background-color: #fff;
 }
 
 .header-plan {
@@ -353,6 +357,7 @@ body {
   gap: 3rem;
   width: 33rem;
   height: 76rem;
+  background-color: #fff;
 }
 
 .plan-card img {
@@ -440,6 +445,7 @@ body {
 
 .section-huge-global {
   padding: 15rem 19rem;
+  /* background-color: #f6f6f6 !important; */
 }
 
 .huge-header {
@@ -494,8 +500,9 @@ body {
 /* =============== */
 
 .section-reviewers {
-  padding: 0 0 0 15rem;
+  padding: 4.8rem 9.6rem 15rem 9.6rem;
   position: relative;
+  background-color: #f6f6f6;
 }
 
 .heading-review {
@@ -595,6 +602,7 @@ body {
 .corousel {
   display: flex;
   align-items: center;
+  /* margin-bottom: 6.5rem; */
 }
 
 .sliders {
@@ -646,6 +654,12 @@ body {
   height: 3rem;
 }
 
+.box-subs {
+  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+}
+
 .subscribe {
   height: 22.3rem;
   background-color: #fff;
@@ -656,6 +670,10 @@ body {
   justify-content: space-between;
   margin-top: 6.5rem;
   border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+
+  transform: translateY(50%);
 }
 
 .heading-subscribe-text {
@@ -692,7 +710,8 @@ body {
 
 /* footer section */
 .footer {
-  padding: 0 15rem;
+  padding: 9.6rem 15rem;
+  background-color: #fff;
 }
 
 .footer-box {

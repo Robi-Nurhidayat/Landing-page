@@ -305,7 +305,7 @@ body {
 /* =============== */
 
 .section-plan {
-  padding: 8rem 17.6rem 8.3rem 17.4rem;
+  padding: 10rem 9.8rem 8.3rem 9.8rem;
 }
 
 .header-plan {
@@ -328,11 +328,18 @@ body {
   margin-bottom: 6rem;
 }
 
-.plan-box {
-  gap: 5rem;
-  align-items: center;
-  justify-content: end;
+.container-plan-card {
+  max-width: 130rem;
   margin: auto;
+}
+
+.plan-box {
+  padding: 10rem 9.8rem 8.3rem 9.8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  justify-content: space-between;
+  /* margin: auto; */
 }
 
 .plan-card {
@@ -408,6 +415,23 @@ body {
   padding: 1.3rem 6.3rem;
   border: 2px solid #f53838;
   border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.btn-subscribe:hover,
+.btn-subscribe:active {
+  background-color: #f53838;
+  color: #fff;
+}
+
+.btn-subscribe.btn-subscribe-active {
+  background-color: #f53838;
+  color: #fff;
+}
+
+.btn-subscribe.btn-subscribe-active:hover {
+  background-color: #bd2c2c;
+  color: #fff;
 }
 
 /* =========== */

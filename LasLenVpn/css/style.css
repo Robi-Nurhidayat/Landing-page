@@ -444,7 +444,7 @@ body {
 /* =========== */
 
 .section-huge-global {
-  padding: 15rem 19rem;
+  padding: 15rem 9.8rem;
   /* background-color: #f6f6f6 !important; */
 }
 
@@ -493,6 +493,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 120rem;
+  margin: auto;
 }
 
 /* ============= */

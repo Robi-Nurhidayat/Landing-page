@@ -1,0 +1,58 @@
+/* max-width:1336 px */
+@media (max-width: 83.5em) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 5.862rem 9.8rem 0 9.8rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .plan-heading-text {
+    margin-bottom: 3.2rem;
+  }
+
+  .section-huge-global {
+    padding: 8rem 9.8rem;
+  }
+
+  /* .huge-sponsors {
+  }
+
+  .huge-sponsors img {
+    width: 50%;
+  } */
+}
+
+@media (max-width: 71.75em) {
+  .header,
+  .section-hero {
+    padding-left: 6.2rem;
+    padding-right: 6.2rem;
+  }
+
+  .section-featured {
+    padding-left: 6.2rem;
+    padding-right: 6.2rem;
+  }
+  .section-provide {
+    padding-left: 6.2rem;
+    padding-right: 6.2rem;
+  }
+
+  .section-plan {
+    padding-left: 6.2rem;
+    padding-right: 6.2rem;
+  }
+
+  .section-huge-global {
+    padding-left: 6.2rem;
+    padding-right: 6.2rem;
+  }
+}

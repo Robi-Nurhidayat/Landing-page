@@ -56,3 +56,9 @@
     padding-right: 6.2rem;
   }
 }
+
+@media (max-width: 62.5em) {
+  .header {
+    text-align: center;
+  }
+}

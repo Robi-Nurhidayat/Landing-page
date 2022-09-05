@@ -18,38 +18,21 @@
 
 - Line heights
   Default: 1
-  Small: 1.05
-  Medium: 1.2
-  Paragraph default: 1.6
+  8rem
+  3.6rem
 
 - Letter spacing
   0.2px
-  0.75px
+  0.1px
 
 --- 02 COLORS
-
-- Primary: #e67e22
-- Tints:
-#fdf2e9
-#fae5d3
-#eb984e
-
-- Shades: 
-#cf711f
-#45260a
-
-- Accents:
-- Greys
 
 use:
 #252B42
 #FA4A0C
+#F6F6F6
 
-#888
-#767676 (lightest grey allowed on #fff)
-#6f6f6f (lightest grey allowed on #fdf2e9)
-#555
-#333
+
 
 --- 05 SHADOWS
 
@@ -64,6 +47,12 @@ Medium: 11px
 
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+font-family:
+"Montserrat", sans-serif;
+"Poppins", sans-serif;
+'Roboto', sans-serif;
+
 */
 
 html {
@@ -115,4 +104,59 @@ body {
 
 .nav__link:hover,
 .nav__link:active {
+}
+
+/* Hero Section /////////////////////////////////////////////////////////////////////////// */
+
+.section__hero {
+  background-image: url(../img/bg-hero.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__text__box {
+  max-width: 100.5rem;
+  /* height: 32.6rem; */
+  text-align: center;
+  /* margin: auto; */
+}
+
+.section__hero p {
+  margin: 0;
+}
+
+.food__app__title {
+  font-size: 2.4rem;
+  letter-spacing: 0.1px;
+  line-height: 3.6rem;
+  font-weight: 700;
+  color: #f6f6f6;
+  margin-bottom: 0.7rem;
+}
+
+.heading__primary {
+  font-size: 5.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 8rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-bottom: 0.7rem;
+}
+
+.heading__4 {
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 2.4rem;
+  line-height: 3.8rem;
+  color: #f6f6f6;
+}
+
+.hero__btn__box {
+}
+
+.btn {
+  color: black;
 }

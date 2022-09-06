@@ -34,6 +34,7 @@ use:
 
 
 
+
 --- 05 SHADOWS
 
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -114,6 +115,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 7.3rem 21.75rem 14.6rem 21.75rem;
 }
 
 .hero__text__box {
@@ -121,6 +123,7 @@ body {
   /* height: 32.6rem; */
   text-align: center;
   /* margin: auto; */
+  margin-bottom: 5.4rem;
 }
 
 .section__hero p {
@@ -136,6 +139,12 @@ body {
   margin-bottom: 0.7rem;
 }
 
+.heading__box__hero {
+  max-width: 93.9rem;
+  height: 16rem;
+  margin-bottom: 0.7rem;
+}
+
 .heading__primary {
   font-size: 5.8rem;
   font-family: "Poppins", sans-serif;
@@ -143,7 +152,6 @@ body {
   line-height: 8rem;
   letter-spacing: 0.2px;
   color: #fff;
-  margin-bottom: 0.7rem;
 }
 
 .heading__4 {
@@ -155,8 +163,40 @@ body {
 }
 
 .hero__btn__box {
+  display: flex;
+  align-items: center;
+  column-gap: 3.4rem;
 }
 
-.btn {
-  color: black;
+.btn:link,
+.btn:visited {
+  padding: 1.6rem 5.85rem;
+  color: #fff;
+  font-size: 2.4rem;
+  letter-spacing: 0.1px;
+  line-height: 3.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.btn__playstore {
+  background-color: #fa4a0c;
+}
+
+.btn__app--store {
+  border: 1px solid #fff;
+}
+
+.btn__playstore:hover,
+.btn__playstore:active {
+  background-color: #dd420a;
+}
+
+.btn__app--store:hover,
+.btn__app--store:active {
+  background-color: #fff;
+  color: #555;
 }

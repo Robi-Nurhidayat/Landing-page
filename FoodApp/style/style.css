@@ -200,3 +200,26 @@ body {
   background-color: #fff;
   color: #555;
 }
+/* Section Smartphone */
+
+.section__smartphone {
+  text-align: center;
+  padding: 3.2rem 27.8rem;
+}
+
+.box__smartphone {
+  width: 80%;
+  margin: auto;
+  margin-top: -30rem;
+}
+
+.section__smartphone img {
+  height: 100%;
+  margin: auto;
+}
+
+.smartphone__line {
+  width: 88.4rem;
+  margin: auto;
+  border: 1px solid red;
+}

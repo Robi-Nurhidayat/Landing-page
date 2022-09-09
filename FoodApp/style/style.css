@@ -273,3 +273,40 @@ body {
   letter-spacing: 0.2px;
   color: #737373;
 }
+
+/* section__download__app */
+
+.section__download__app {
+  height: 50.9rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)),
+    url("/img/bg-download.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading__2__download_app {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.7rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.heading__4__download__app {
+  font-size: 2.4rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+
+.box__download__app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.6rem;
+}

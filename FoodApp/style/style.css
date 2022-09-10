@@ -185,10 +185,12 @@ body {
 
 .btn__playstore {
   background-color: #fa4a0c;
+  cursor: pointer;
 }
 
 .btn__app--store {
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .btn__playstore:hover,
@@ -309,4 +311,84 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1.6rem;
+}
+
+.btn__playstore__link:link,
+.btn__playstore__link:visited {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  color: #fff;
+  padding: 1.8rem 3.1rem;
+  background-color: #fa4a0c;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.btn__playstore__link:hover,
+.btn__playstore__link:active {
+  background-color: #cf3e0a;
+}
+
+.btn__app--store__link:link,
+.btn__app--store__link:visited {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  color: #fff;
+  padding: 1.6rem 4.5rem;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.btn__app--store__link:hover,
+.btn__app--store__link:active {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Section Footer */
+.footer {
+  margin-top: 3.8rem;
+}
+
+.footer__container {
+  max-width: 121rem;
+  height: 13.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2.8rem 3.5rem 2.7rem 9.1rem;
+}
+
+.footer__sosial_media {
+  display: flex;
+  align-items: center;
+  column-gap: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #5c5c5c;
+  margin: 0;
 }

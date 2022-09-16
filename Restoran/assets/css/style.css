@@ -103,3 +103,18 @@ body {
   border: none;
   background-color: rgba(90, 79, 207, 0.1);
 }
+
+/* HERO SECTION =========================================================================== */
+
+.hero__container {
+  display: flex;
+  padding-left: 14rem;
+  column-gap: 4rem;
+  overflow: hidden;
+}
+
+.hero__container img {
+  max-width: 77rem;
+
+  border-radius: 24px;
+}

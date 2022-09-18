@@ -109,12 +109,35 @@ body {
   padding-left: 6rem;
 }
 
+.container__ads {
+  padding-left: 8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.container__ads__images {
+  display: flex;
+  column-gap: 4rem;
+}
+
+.container__ads__images img {
+  width: 82.2%;
+}
+
+.container__ads__images img:last-child {
+  border-radius: 2.4rem;
+}
+
 .container__ads__info {
   max-width: 39rem;
   height: 29.7rem;
   border-radius: 2.4rem;
   background-color: #fff;
   padding: 2.4rem 14rem 2.4rem 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .info__text {

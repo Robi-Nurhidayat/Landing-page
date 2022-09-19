@@ -1,0 +1,19 @@
+@media (max-width: 27.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav {
+    position: relative;
+    height: 100vh;
+  }
+
+  .nav__links {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .nav__login {
+    display: none;
+  }
+}

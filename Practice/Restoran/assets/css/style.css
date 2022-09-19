@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 132rem;
+  margin: 0 auto;
+}
+
+/* Section Header ======================================================== */
+
+.header {
+  padding: 3.2rem 6rem 6rem 6rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 3rem;
+}
+
+.nav__link {
+  list-style: none;
+}
+
+.nav__item:link,
+.nav__item:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #232631;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+}
+
+.nav__brand__text {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-align: center;
+  color: #232631;
+}
+
+.nav__login {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.input__box {
+  position: relative;
+}
+
+.icon__search {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.search__bar {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #858585;
+  padding: 1.6rem 5.6rem 1.6rem 6.2rem;
+  border: none;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.search__bar:focus {
+  border: none;
+  outline: 2px solid #abd9ff;
+}
+
+.nav__btn__login {
+  padding: 1.6rem 2.8rem;
+  border-radius: 12px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #5a4fcf;
+  border: none;
+  background-color: rgba(90, 79, 207, 0.1);
+}
+
+.toggle {
+  padding: 10px;
+  border: none;
+  background-color: lightblue;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: none;
+}

@@ -231,6 +231,7 @@ body {
 
 .why__us__header {
   text-align: center;
+  margin-bottom: 4.1rem;
 }
 
 .heading__quad {
@@ -245,4 +246,51 @@ body {
   font-size: 2.8rem;
   font-weight: 600;
   color: #232631;
+}
+
+.why__us__container__services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}
+
+.service {
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 2.4rem;
+}
+
+.heading__service__text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #232631;
+  margin-top: 2.4rem;
+}
+
+.service__text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  color: #656565;
+}
+
+.btn__service__view:link,
+.btn__service__view:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #232631;
+  padding: 2.4rem 9.5rem 2.4rem 9.6rem;
+  background-color: #fdc886;
+}
+
+.btn__service__active {
+  /* background-color: #fdc886; */
+}
+
+.box__button__service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

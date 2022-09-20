@@ -260,11 +260,30 @@ body {
   border-radius: 2.4rem;
 }
 
+.service__text__box {
+  padding: 2.4rem 2.4rem 0 2.4rem;
+}
+
+.service__text__box img {
+  margin-bottom: 2.4rem;
+}
+
+.service__text__box img::after {
+  content: "";
+  width: 60%;
+  padding-bottom: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  background-color: lightblue;
+}
+
 .heading__service__text {
   font-size: 1.8rem;
   font-weight: 600;
   color: #232631;
-  margin-top: 2.4rem;
+  margin-bottom: 1.2rem;
 }
 
 .service__text {
@@ -274,23 +293,24 @@ body {
   color: #656565;
 }
 
-.btn__service__view:link,
-.btn__service__view:visited {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #232631;
-  padding: 2.4rem 9.5rem 2.4rem 9.6rem;
+.service__button__box {
+  margin-top: 5.4rem;
+}
+
+.btn__view__why__us:link,
+.btn__view__why__us:visited {
+  padding: 2.4rem 0;
   background-color: #fdc886;
-}
-
-.btn__service__active {
-  /* background-color: #fdc886; */
-}
-
-.box__button__service {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  border-radius: 1.2rem 1.2rem 2.4rem 2.4rem;
+}
+
+.btn__view__why__us span {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #232631;
 }

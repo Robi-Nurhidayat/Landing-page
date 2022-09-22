@@ -204,10 +204,12 @@ body {
   background-color: #fdc886;
   border-radius: 1.2rem;
   margin-bottom: 1.2rem;
+  transition: all 0.3s;
 }
 
 .btn__view:hover,
 .btn__view:active {
+  background-color: #c79d69;
 }
 
 .footer__info__button {
@@ -323,4 +325,36 @@ body {
   font-size: 1.6rem;
   font-weight: 600;
   color: #232631;
+}
+
+/* Section Popular Restaurant ======================================================= */
+
+.section__popular__resto {
+  padding: 12rem 6rem;
+}
+
+.popular__text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #656565;
+  margin-bottom: 5.6rem;
+}
+
+.btn__view__popular:link,
+.btn__view__popular:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #232631;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.6rem 2.8rem;
+  background-color: #fdc886;
+  border-radius: 1.2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+.btn__view__popular:hover,
+.btn__view__popular:active {
+  background-color: #c79d69;
 }

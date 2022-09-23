@@ -333,6 +333,33 @@ body {
   padding: 12rem 6rem;
 }
 
+.container__popular__resto {
+  display: grid;
+  grid-template-columns: 1.75fr 1.75fr 1fr 1fr;
+  column-gap: 2rem;
+  align-items: stretch;
+}
+
+.popular__text {
+  align-self: center;
+}
+
+/* .popular__image img:not(:first-child) {
+  border-radius: 2.4rem;
+} */
+
+.popular__image.medium--size {
+  /* width: 50%; */
+}
+
+.popular__image img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2.4rem;
+}
+
 .popular__text p {
   font-size: 1.6rem;
   font-weight: 400;

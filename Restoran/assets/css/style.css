@@ -335,13 +335,18 @@ body {
 
 .container__popular__resto {
   display: grid;
-  grid-template-columns: 1.75fr 1.75fr 1fr 1fr;
-  column-gap: 2rem;
+  grid-template-columns: 1.9fr 1.5fr 0.75fr 0.75fr;
+  /* column-gap: 2rem; */
   align-items: stretch;
+}
+
+.container__popular__resto:first-child {
+  column-gap: 2rem;
 }
 
 .popular__text {
   align-self: center;
+  margin-right: 6.5rem;
 }
 
 /* .popular__image img:not(:first-child) {
@@ -361,10 +366,14 @@ body {
 }
 
 .popular__text p {
+  max-width: 36rem;
+  padding-right: 4rem;
   font-size: 1.6rem;
   font-weight: 400;
   color: #656565;
   margin-bottom: 5.6rem;
+  text-align: justify;
+  word-spacing: -1px;
 }
 
 .btn__view__popular:link,

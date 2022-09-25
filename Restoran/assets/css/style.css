@@ -394,3 +394,66 @@ body {
 .btn__view__popular:active {
   background-color: #c79d69;
 }
+
+.popular__image {
+  position: relative;
+}
+
+.popular__image__info__box {
+  position: absolute;
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightblue;
+  bottom: 2.4rem;
+  border-radius: 2.4rem;
+  bottom: 2.4rem;
+  left: 2.4rem;
+  right: 2.4rem;
+  background-color: #fff;
+}
+
+.popular__image__info__box__text {
+}
+
+.popular__image__info__box__text .popular__image__info__star {
+  display: flex;
+  align-items: center;
+  color: #656565;
+  font-size: 1.6rem;
+  gap: 0.4rem;
+}
+
+.popular__image__info__box__text p span {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #ffb800;
+  /* margin-right: 0.4rem; */
+}
+
+.popular__image__info__box__text p img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.popular__image__info__name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #232631;
+}
+
+.popular__image__info__location {
+  display: flex;
+  align-items: center;
+}
+
+.popular__image__info__location img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.popular__image__info__button {
+  display: inline-block;
+  width: 3.6rem;
+  height: 3.6rem;
+}

@@ -335,16 +335,18 @@ body {
 
 .container__popular__resto {
   display: grid;
-  grid-template-columns: 1.9fr 1.5fr 0.75fr 0.75fr;
-  /* column-gap: 2rem; */
-  align-items: stretch;
+  grid-template-columns: 2.75fr 2.2fr 1.1fr 1.1fr;
+  column-gap: 2rem;
+  /* align-items: stretch; */
 }
 
-.container__popular__resto:first-child {
-  column-gap: 2rem;
+.heading__popular {
+  font-size: 2.8rem;
 }
 
 .popular__text {
+  /* max-width: 36.7rem; */
+
   align-self: center;
   margin-right: 6.5rem;
 }
@@ -450,6 +452,10 @@ body {
 .popular__image__info__location img {
   width: 2.2rem;
   height: 2.2rem;
+}
+
+.popular__image__info__box__button {
+  margin-left: auto;
 }
 
 .popular__image__info__button {

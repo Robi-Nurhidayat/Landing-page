@@ -503,6 +503,10 @@ body {
   gap: 2rem;
 }
 
+.near__you__images img {
+  width: 100%;
+}
+
 .near__you__images__button {
   display: flex;
   align-items: center;

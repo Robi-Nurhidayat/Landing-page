@@ -541,3 +541,26 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* Section Profile ======================================================== */
+.section__profile {
+  padding: 3.2rem 6rem;
+}
+
+.container__profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.heading__profile__1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #5a4fcf;
+  margin-bottom: 0.6rem;
+}
+
+.heading__profile__2 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  color: #232631;
+}

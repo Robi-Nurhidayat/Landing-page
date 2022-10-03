@@ -564,3 +564,54 @@ body {
   font-size: 3.2rem;
   color: #232631;
 }
+
+.profile__info__details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detail__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 2.4rem;
+}
+
+.detail__box h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #656565;
+}
+
+.detail__box h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #232631;
+}
+
+.left__location {
+  display: flex;
+  align-items: center;
+  column-gap: 0.6rem;
+  color: #656565;
+}
+
+.details__right__box {
+  color: #fdc886;
+}
+.details__right__box a:link,
+.details__right__box a:visited {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #fdc886;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.test {
+  color: inherit;
+}

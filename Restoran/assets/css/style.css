@@ -550,6 +550,7 @@ body {
 .container__profile {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
 }
 
 .heading__profile__1 {
@@ -627,7 +628,60 @@ body {
 .btn__view__all__chef:link,
 .btn__view__all__chef:visited {
   padding: 1.6rem 2.8rem;
-  display: flex;
+  display: inline-block;
   align-items: center;
   background-color: #fdc886;
+  text-decoration: none;
+  color: #232631;
+  border-radius: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: all 0.3s;
+  margin-top: auto;
+}
+
+.btn__view__all__chef:hover,
+.btn__view__all__chef:active {
+  background-color: #daaa70;
+}
+
+.btn__view__all__chef span {
+  display: flex;
+  align-items: center;
+}
+
+.profile__img {
+  padding: 0 4rem 0 6rem;
+  position: relative;
+}
+
+.box__experience {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  padding: 3rem 4.6rem;
+  background-color: #fff;
+  border-radius: 2.4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.box__experience h5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #232631;
+}
+
+.box__experience p {
+  font-size: 1.6rem;
+  color: #656565;
+  font-weight: 400;
+}
+
+.box__chef__restaurant {
+  display: flex;
+  column-gap: 1.2rem;
+  align-items: center;
 }

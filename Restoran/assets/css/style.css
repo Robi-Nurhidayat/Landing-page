@@ -121,7 +121,7 @@ body {
 }
 
 .container__ads__images img {
-  width: 85.7%;
+  width: 100%;
 }
 
 .container__ads__images img:last-child {
@@ -553,6 +553,14 @@ body {
   column-gap: 6.4rem;
 }
 
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  /* gap: 3.2rem; */
+  /* justify-content: center;
+  align-items: flex-start; */
+}
+
 .heading__profile__1 {
   font-size: 1.8rem;
   font-weight: 600;
@@ -638,6 +646,7 @@ body {
   font-weight: 600;
   transition: all 0.3s;
   margin-top: auto;
+  align-self: flex-start;
 }
 
 .btn__view__all__chef:hover,
@@ -683,5 +692,45 @@ body {
 .box__chef__restaurant {
   display: flex;
   column-gap: 1.2rem;
+  align-items: center;
+  padding: 2.4rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 4rem;
+  left: 0;
+  border-radius: 2.4rem;
+}
+
+.chef__info__box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.chef__info__box .chef__info__head p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #656565;
+  text-align: left;
+  margin-bottom: 0.4rem;
+}
+
+.chef__info__box .chef__info__head h5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #232631;
+}
+
+.chef__info__box a:link,
+.chef__info__box a:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #fdc886;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.chef__info__box a span {
+  display: flex;
   align-items: center;
 }

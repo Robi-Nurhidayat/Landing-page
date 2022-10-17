@@ -48,7 +48,7 @@
   color: #656565;
   margin-bottom: 5.6rem;
   text-align: justify;
-  word-spacing: -1px;
+  word-spacing: 0px;
 }
 
 .btn__view__popular:link,

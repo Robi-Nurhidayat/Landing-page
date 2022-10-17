@@ -1,0 +1,7 @@
+/* max width 1200px -> 75em */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}

@@ -4,4 +4,114 @@
   html {
     font-size: 56.25%;
   }
+
+  /* hero section */
+
+  .container__ads__images {
+    display: flex;
+    column-gap: 4rem;
+  }
+
+  .container__ads__images img {
+    width: 86.25%;
+  }
+
+  .container__ads__images img:last-child {
+    border-radius: 2.4rem;
+  }
+
+  .container__ads__info {
+    max-width: 35rem;
+    height: 27rem;
+    border-radius: 2.4rem;
+    background-color: #fff;
+    padding: 2.4rem 10rem 2.4rem 2.4rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .info__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .sum__star {
+    color: #ffb800;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .star__review span:last-child {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #656565;
+    text-align: center;
+  }
+
+  .hero__description__restaurant__name {
+    font-size: 2.1rem;
+    color: #232631;
+    font-weight: 600;
+  }
+
+  .hero__description__idr__price {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #656565;
+  }
+
+  .box__location__hero__description {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+  }
+
+  .box__location__hero__description img {
+    padding: 1.5px 3px;
+  }
+
+  .box__location__hero__description p {
+    font-size: 1.5rem;
+    color: #656565;
+    font-weight: 400;
+  }
+
+  .box__button__info {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn__view:link,
+  .btn__view:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #232631;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.5rem 2.7rem;
+    background-color: #fdc886;
+    border-radius: 1.2rem;
+
+    transition: all 0.3s;
+  }
+
+  .btn__view:hover,
+  .btn__view:active {
+    background-color: #c79d69;
+  }
+
+  .footer__info__button {
+    display: flex;
+    align-items: center;
+    column-gap: 0.6rem;
+  }
+
+  .footer__info__button p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #656565;
+  }
 }

@@ -7,41 +7,30 @@
 
   /* hero section */
 
-  .container__ads__images {
+  /* .container__ads__images {
     display: flex;
     column-gap: 4rem;
-  }
-
+  } */
+  /* 
   .container__ads__images img {
     width: 86.25%;
   }
 
   .container__ads__images img:last-child {
     border-radius: 2.4rem;
-  }
+  } */
 
   .container__ads__info {
-    max-width: 35rem;
-    height: 27rem;
-    border-radius: 2.4rem;
-    background-color: #fff;
-    padding: 2.4rem 10rem 2.4rem 2.4rem;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    max-width: 36rem;
+    padding: 2.4rem 11rem 2.4rem 2.4rem;
   }
 
   .info__text {
-    display: flex;
-    flex-direction: column;
     gap: 0.3rem;
   }
 
   .sum__star {
-    color: #ffb800;
     font-size: 1.7rem;
-    font-weight: 600;
   }
 
   .star__review span:last-child {
@@ -94,7 +83,6 @@
     padding: 1.5rem 2.7rem;
     background-color: #fdc886;
     border-radius: 1.2rem;
-
     transition: all 0.3s;
   }
 
@@ -113,5 +101,34 @@
     font-size: 1.5rem;
     font-weight: 400;
     color: #656565;
+  }
+}
+
+/* max-width : 1000px */
+@media (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* section hero */
+  .container__ads__images img {
+    width: 84.5%;
+  }
+
+  .container__ads__images img:last-child {
+    border-radius: 2.4rem;
+  }
+
+  .container__ads__images {
+    gap: 2rem;
+  }
+
+  .container__ads__info {
+    max-width: 34rem;
+    padding: 2rem 9rem 2rem 2rem;
+  }
+
+  .info__text {
+    margin-bottom: 2.4rem;
   }
 }

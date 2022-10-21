@@ -11,7 +11,7 @@
 
 .container__ads__images {
   display: flex;
-  column-gap: 4rem;
+  gap: 4em;
 }
 
 .container__ads__images img {

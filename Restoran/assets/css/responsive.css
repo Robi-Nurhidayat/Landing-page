@@ -132,6 +132,15 @@
     margin-bottom: 2.4rem;
   }
 
+  /* section why us */
+  .service__text {
+    font-size: 1.5rem;
+  }
+
+  .btn__view__why__us span {
+    font-size: 1.8rem;
+  }
+
   /* section popular resto */
 
   .heading__popular {

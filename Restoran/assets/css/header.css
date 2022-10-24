@@ -2,6 +2,9 @@
 
 .header {
   padding: 3.2rem 6rem 6rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
@@ -82,4 +85,16 @@
   color: #5a4fcf;
   border: none;
   background-color: rgba(90, 79, 207, 0.1);
+}
+
+.icon__open {
+  display: none;
+}
+
+.icon__open[name="menu-outline"] {
+  font-size: 2.8rem;
+}
+
+.icon__open[name="close-outline"] {
+  font-size: 2.8rem;
 }

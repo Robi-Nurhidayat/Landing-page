@@ -172,3 +172,18 @@
     font-size: 1.6rem;
   }
 }
+
+/* max-width: 900px */
+@media (max-width: 56.25em) {
+  .nav {
+    display: none;
+  }
+
+  .nav__login {
+    display: none;
+  }
+
+  .icon__open[name="menu-outline"] {
+    display: inline-block;
+  }
+}

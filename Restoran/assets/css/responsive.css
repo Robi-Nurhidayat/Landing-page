@@ -142,6 +142,11 @@
   }
 
   /* section profile */
+  .detail__box {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.2rem;
+  }
   .heading__profile__2 {
     font-size: 2.4rem;
   }
@@ -155,6 +160,6 @@
   }
 
   .details__right__box a:link {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
 }

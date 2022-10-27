@@ -175,8 +175,19 @@
 
 /* max-width: 900px */
 @media (max-width: 56.25em) {
+  .header {
+    position: relative;
+  }
   .nav {
-    display: none;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    z-index: 10000;
   }
 
   .nav__login {
